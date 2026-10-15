@@ -1,0 +1,15 @@
+{
+  "name": "aif-calculator",
+  "version": "1.0.0",
+  "description": "A small command-line calculator in pure Node.js with zero external dependencies.",
+  "type": "module",
+  "main": "src/calculator.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "license": "MIT"
+}
